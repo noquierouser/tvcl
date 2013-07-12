@@ -24,6 +24,10 @@ Si crees que falta algún canal, radio, o tienes algún problema con alguno de l
 
 ## Changelog
 
+### 0.2
+* Radios nuevas: ADN, Agricultura, Concierto, Cooperativa, Festival, Imagina, Portales, Pudahuel, UChile, UDEC, Radio Uno, USACH, Rock and Pop, USACH Señal Clásica. ¡Gracias [@fcatrin](http://twitter.com/fcatrin)!
+* Fixed: Bío Bío Santiago
+
 ### 0.1
 
 * Radios: Bío Bío de Santiago, Concepción y Valparaíso
