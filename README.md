@@ -17,18 +17,19 @@ Si crees que falta algún canal, radio, o tienes algún problema con alguno de l
 
 ## Por hacer
 
-* Obtener señal abierta de TVN
 * Obtener señal de 24 Horas
-* Agregar más canales y radios
+* Agregar canales regionales y radios
 * Metadata para los canales y radios
 
 ## Changelog
+
+### 0.3
+* Canales nuevos: CDTV, Mega, TVN (¡Gracias [@rcovarru](http://twitter.com/rcovarru)!), TVSenado, UCV.
 
 ### 0.2
 * Radios nuevas: ADN, Agricultura, Concierto, Cooperativa, Festival, Imagina, Portales, Pudahuel, UChile, UDEC, Radio Uno, USACH, Rock and Pop, USACH Señal Clásica. ¡Gracias [@fcatrin](http://twitter.com/fcatrin)!
 * Fixed: Bío Bío Santiago
 
 ### 0.1
-
 * Radios: Bío Bío de Santiago, Concepción y Valparaíso
 * Canales: 13, 13C, CHV, CNN Chile, La Red, TVN Señal Internacional
