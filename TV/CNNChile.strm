@@ -1,1 +1,1 @@
-rtmpt://200.83.3.28/CNN-CHILE playpath=CNN-CHILE timeout=120
+http://200.104.250.183:1935/vtr_cnn_online/cnn-web/playlist.m3u8
