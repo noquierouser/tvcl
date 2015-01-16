@@ -22,6 +22,10 @@ Si crees que falta algún canal, radio, o tienes algún problema con alguno de l
 
 ## Changelog
 
+### 0.4.1
+* Logos para radios
+* Nuevos logos para canales de televisión
+
 ### 0.4
 * Refresco de señales de canales de televisión.
 * Metadata básica para los canales de televisión.
