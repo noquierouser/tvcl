@@ -1,0 +1,17 @@
+{
+  "generatorInfoName": "tvclpvr_gen v0.1",
+  "generatorInfoURL": "http://noquierouser.com/labs/tavocles",
+  "channelsFile": "canales.json",
+  "scraperURL": "http://www.movistar.cl/portaltv/programacion-simplificacion/frontend/inicio/cargar_parrilla_por_canal/?id=500000%CODIGO%&fecha=%FECHA%&tipocanal=1",
+  "scraperFields": {
+    "codigo": "%CODIGO%",
+    "fecha": "%FECHA%"
+  },
+  "detailsURL": "http://www.movistar.cl/portaltv/programacion-simplificacion/frontend/inicio/cagar_info_programa/?id=%DATAID%&idpro=%IDPROG%&fecha=%FECHAPROG%&canal=500000%CODCANAL%",
+  "detailsFields": {
+    "dataID": "%DATAID%",
+    "idProg": "%IDPROG%",
+    "fechaProg": "%FECHAPROG%",
+    "codCanal": "%CODCANAL%"
+  }
+}
