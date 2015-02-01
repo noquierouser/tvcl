@@ -1,99 +1,84 @@
 <?php
-include 'includes/simple_html_dom.php';
+// includes + requires
+include 'includes/helper_functions.php';
 
 date_default_timezone_set("America/Santiago");
 
 // config
 $config = json_decode(file_get_contents("config.json"));
-$canales = json_decode(file_get_contents($config->channelsFile));
-$dias = array(
-  strtotime("today"),
-  strtotime("tomorrow") // TODO: control this using config file
-  // strtotime("2 days"),
-  // strtotime("3 days"),
-  // strtotime("4 days"),
-  // strtotime("5 days")
-);
+$canales = array();
 
+foreach (glob($config->channelsFolder . "*.json") as $archivo) {
+  foreach (json_decode(file_get_contents($archivo)) as $item) {
+    $canales[] = $item;
+  }
+}
+
+// tv root node
 $tv = new SimpleXMLElement("<tv></tv>");
 $tv->addAttribute("date", date("YmdHis O"));
 $tv->addAttribute("generator-info-name", $config->generatorInfoName);
 $tv->addAttribute("generator-info-url", $config->generatorInfoURL);
 
-// channel listing generator
+// channel listing loop
 foreach ($canales as $canal) {
   $channel = $tv->addChild("channel");
   $channel->addAttribute("id", $canal->id);
-  $channel->addChild("display-name", $canal->name);
+  $channel->addChild("display-name", xml_entity_transform($canal->name));
+  $icon = $channel->addChild("icon");
+  $icon->addAttribute("src", $config->logosFolder . str_replace(".", "-", $canal->id) . ".png");
 }
 
-// channel programming generator
-foreach ($dias as $dia) {
-  foreach ($canales as $canal) {
-    if ($canal->code) {
-      // channel code exists
-      $data_url = $config->scraperURL;
-      $data_url = str_replace("%CODIGO%", $canal->code, $data_url);
-      $data_url = str_replace("%FECHA%", date("Y-m-d", $dia), $data_url);
-      $data_json = json_decode(file_get_contents($data_url));
-      $parrilla = str_get_html($data_json->div_parrilla);
-      $programas = $parrilla->find("p.descripcion");
+// programming listing loop
+foreach ($canales as $canal) {
+  if ($canal->scraper) {
+    $filepath = "data/" . $canal->scraper . "-" . $canal->id . ".json";
+    $programacion = json_decode(file_get_contents($filepath));
 
-      // programmes loop
-      foreach ($programas as $programa) {
-        // programme title, start and end
-        $descripcion = explode("</span>", $programa->innertext);
-        $descripcion[1] = explode(" - ", str_replace(":", "", trim($descripcion[1])));
+    foreach ($programacion as $item) {
+      $programme = $tv->addChild("programme");
+      $programme->addAttribute("channel", $item->channel_id);
+      $programme->addAttribute("start", $item->start);
+      $programme->addAttribute("stop", $item->stop);
+      $programme->addChild("title", xml_entity_transform($item->title));
+      $programme->addChild("desc", xml_entity_transform($item->desc));
 
-        $nombre_show = str_replace("<span>", "", $descripcion[0]);
-        $inicio_show = strtotime(date("Y-m-d", $dia) . " " . $descripcion[1][0]);
-        $fin_show = strtotime(date("Y-m-d", $dia) . " " . $descripcion[1][1]);
-
-        // programme description
-        $detalles_url = str_replace(
-          array(
-            $config->detailsFields->dataID,
-            $config->detailsFields->idProg,
-            $config->detailsFields->fechaProg,
-            $config->detailsFields->codCanal
-          ),
-          array(
-            $programa->parent->{"data-id"},
-            $programa->parent->{"data-idprog"},
-            date("Y-m-d", $dia),
-            $canal->code
-          ),
-          $config->detailsURL
-        );
-
-        // TODO: optimize this code
-        $detalles_data = file_get_contents($detalles_url);
-        $detalles_programa = str_get_html($detalles_data);
-        $sinopsis = explode("<span>", $detalles_programa->find("p", -1)->innertext);
-        $sinopsis = str_replace("</span>", "", $sinopsis[1]);
-        $sinopsis = (empty($sinopsis)) ? "No hay descripción disponible." : $sinopsis; // detect empty sinopsis
-
-        // add xml child with compiled data
-        $programme = $tv->addChild("programme");
-        $programme->addAttribute("channel", $canal->id);
-        $programme->addAttribute("start", date("YmdHis O", $inicio_show));
-        $programme->addAttribute("stop", date("YmdHis O", $fin_show));
-        $programme->addChild("title", $nombre_show);
-        $programme->addChild("desc", $sinopsis);
+      if (!empty($item->rating)) {
+        $rating = $programme->addChild("rating");
+        $rating->addAttribute("system", "VCHIP");
+        $rating->addChild("value", $item->rating);
       }
-    } else {
-      // no channel code
-      // create a programme that lasts the whole day
-      $inicio_show = strtotime(date("Y-m-d", $dia) . " 00:00:00");
-      $fin_show = strtotime(date("Y-m-d", $dia) . " 23:59:59");
+    }
+  } else {
+    // generic programming for seven days
+    $fechas = array(
+      "today",
+      "today + 1 day",
+      "today + 2 day",
+      "today + 3 day",
+      "today + 4 day",
+      "today + 5 day",
+      "today + 6 day",
+      "today + 7 day"
+    );
 
+    foreach ($fechas as $dia) {
       $programme = $tv->addChild("programme");
       $programme->addAttribute("channel", $canal->id);
-      $programme->addAttribute("start", date("YmdHis O", $inicio_show));
-      $programme->addAttribute("stop", date("YmdHis O", $fin_show));
-      $programme->addChild("title", "Programación " . $canal->name . " " . date("d-m-Y", $inicio_show));
+      $programme->addAttribute("start", date("YmdHis O", strtotime($dia . " 00:00")));
+      $programme->addAttribute("stop", date("YmdHis O", strtotime($dia . " 00:00 + 1 day")));
+      $programme->addChild("title", "Programación " . $canal->name);
+      $programme->addChild("desc", "Programación " . $canal->name . " - " . date("d-m-Y", strtotime($dia)));
     }
   }
 }
 
-echo $tv->asXML();
+
+// save to xml file
+$dom = dom_import_simplexml($tv)->ownerDocument;
+$dom->preserveWhiteSpace = false;
+$dom->formatOutput = true;
+file_put_contents("prog.xml", $dom->saveXML());
+
+// output for cron
+echo "[", date("d-m-y H:i:s"), "] ", "EPG generated successfully.", PHP_EOL;

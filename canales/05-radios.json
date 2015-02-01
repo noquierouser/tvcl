@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cl.radio.bbclstgo",
+    "name": "Radio Bio Bío Santiago",
+    "group": "Radios",
+    "url": {
+      "address": "http://tunein.digitalproserver.com/biostgobb.aac",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.bbclconce",
+    "name": "Radio Bio Bío Concepción",
+    "group": "Radios",
+    "url": {
+      "address": "http://tunein.digitalproserver.com/bioconcebb.aac",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.bbclvalpo",
+    "name": "Radio Bio Bío Valparaíso/Viña del Mar",
+    "group": "Radios",
+    "url": {
+      "address": "http://tunein.digitalproserver.com/biovalpo",
+      "low": false
+    },
+    "scraper": false
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "cl.reg.aricatv",
+    "name": "Arica TV - Vive! TV Chile",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/aricatv/aricatvvivo/aricatv.smil/chunklist-b848000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/aricatv/aricatvvivo/aricatv.smil/chunklist-b796000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.antofagastatv",
+    "name": "Antofagasta TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/atv/atvvivo/atv.smil/chunklist-b2200000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/atv/atvvivo/atv.smil/chunklist-b796000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.dchtv",
+    "name": "Digital Channel TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com:443/live/dch-tv/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.holvoet",
+    "name": "Holvoet TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/holvoet/holvoetvivo/holvoet.smil/chunklist-b1248000.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.vtv2",
+    "name": "VTV2 Valle TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://cdn.streamingmedia.cl:1935/live/rtmp.stream/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.c2sanantonio",
+    "name": "Canal 2 San Antonio",
+    "group": "Regionales",
+    "url": {
+      "address": "http://video.crearchile.com:8080/live/canal2.mp4/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.sextavision",
+    "name": "Sextavisión - Vive! O'Higgins",
+    "group": "Regionales",
+    "url": {
+      "address": "http://scl.streaminghd.cl/sextavision/myStream_720/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tcsantacruz",
+    "name": "Telecanal Santa Cruz",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/tcsc/tcscvivo/livestream2/chunklist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tvosanvicente",
+    "name": "TVO San Vicente",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/tvo/tvovivo/livestream/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.campustv",
+    "name": "Campus TV - Universidad de Talca",
+    "group": "Regionales",
+    "url": {
+      "address": "http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w2049429420_b1548000.m3u8",
+      "low": "http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w2049429420_b848000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.canal9biobio",
+    "name": "Canal 9 Bio Bío Televisión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/c9//c9.smil/chunklist-b1500000.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tvu",
+    "name": "TVU",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/tvu/tvuvivo/tvu.smil/chunklist-b1500000.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.c21chillan",
+    "name": "Canal 21 Chillán",
+    "group": "Regionales",
+    "url": {
+      "address": "rtsp://streamradiohd.com/8134/8134",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tectv",
+    "name": "TecTV Temuco",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com:443/live/tec-tv/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.inetosorno",
+    "name": "I-NET TV Digital",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/inetosorno/inetosornovivo/inetosorno.smil/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.canal5lrc",
+    "name": "Canal 5 LRC",
+    "group": "Regionales",
+    "url": {
+      "address": "http://iphone-streaming.ustream.tv/uhls/16911585/streams/live/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.pinguinotv",
+    "name": "El Pingüino TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://streaming.elpinguino.com:1935/live/pinguinotv/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.aysentv",
+    "name": "Telesur AysénTV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/chunklist-b848000.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.itv",
+    "name": "ITV Patagonia",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/chunklist-b1500000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/chunklist-b800000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.umagtv",
+    "name": "UMAG TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movil.ztreaming.com/tser5/tser5.sdp/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.umagauditorio",
+    "name": "UMAG Auditorio TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://131.161.59.71/itser4/tser4.sdp/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  }
+]

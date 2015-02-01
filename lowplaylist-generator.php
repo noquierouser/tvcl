@@ -23,24 +23,25 @@ foreach ($canales as $canal) {
   $playlist .= "," . $canal->name;
   $playlist .= PHP_EOL;
 
-  // url type
-  $url_type = explode(":", $canal->url->address);
+  // url low and type
+  $url_canal = ($canal->url->low) ? $canal->url->low : $canal->url->address;
+  $url_type = explode(":", $url_canal);
   $url_type = $url_type[0];
 
   // url line
   switch ($url_type) {
     case 'rtmp':
-      $playlist .= "rtmp://\$OPT:rtmp-raw=" . $canal->url->address . PHP_EOL;
+      $playlist .= "rtmp://\$OPT:rtmp-raw=" . $url_canal . PHP_EOL;
       break;
     
     default:
-      $playlist .= $canal->url->address . PHP_EOL;
+      $playlist .= $url_canal . PHP_EOL;
       break;
   }
 }
 
 // generate file
-file_put_contents("list.m3u", $playlist);
+file_put_contents("listlow.m3u", $playlist);
 
 // output for cron
 echo "[", date("d-m-y H:i:s"), "] ", "Playlist generated successfully. " . count($canales) . " channels generated.", PHP_EOL;
