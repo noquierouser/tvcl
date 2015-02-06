@@ -1,5 +1,15 @@
 [
   {
+    "id": "cl.radio.adn",
+    "name": "ADN Radio Chile",
+    "group": "Radios",
+    "url": {
+      "address": "http://2493.live.streamtheworld.com:80/ADNAAC_SC",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
     "id": "cl.radio.bbclstgo",
     "name": "Radio Bio Bío Santiago",
     "group": "Radios",
@@ -25,6 +35,146 @@
     "group": "Radios",
     "url": {
       "address": "http://tunein.digitalproserver.com/biovalpo",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.concierto",
+    "name": "Radio Concierto",
+    "group": "Radios",
+    "url": {
+      "address": "http://2493.live.streamtheworld.com:80/CONCIERTO_SC",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.cooperativa",
+    "name": "Radio Cooperativa",
+    "group": "Radios",
+    "url": {
+      "address": "http://209.88.205.240:80",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.festival",
+    "name": "Radio Festival",
+    "group": "Radios",
+    "url": {
+      "address": "http://www.festival.cl:8000/",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.imagina",
+    "name": "Radio Imagina",
+    "group": "Radios",
+    "url": {
+      "address": "http://4323.live.streamtheworld.com:80/IMAGINA_SC",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.portales",
+    "name": "Radio Portales",
+    "group": "Radios",
+    "url": {
+      "address": "http://186.103.134.238:9996/",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.pudahuel",
+    "name": "Radio Pudahuel",
+    "group": "Radios",
+    "url": {
+      "address": "http://7349.live.streamtheworld.com:80/PUDAHUEL_SC",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.uchile",
+    "name": "Radio Universidad de Chile",
+    "group": "Radios",
+    "url": {
+      "address": "http://stream.radio.uchile.cl:80/",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.udec",
+    "name": "Radio UDEC",
+    "group": "Radios",
+    "url": {
+      "address": "http://radio.udec.cl:8000/radioudec",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.uno",
+    "name": "Radio UNO",
+    "group": "Radios",
+    "url": {
+      "address": "http://7349.live.streamtheworld.com:80/RADIO_UNO_SC",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.usach",
+    "name": "Radio USACH",
+    "group": "Radios",
+    "url": {
+      "address": "http://158.170.20.250:8080/",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.usachclasica",
+    "name": "Radio USACH Señal Clásica",
+    "group": "Radios",
+    "url": {
+      "address": "http://senalclasica.radiousach.cl:8080/",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.rockandpop",
+    "name": "Radio Rock & Pop",
+    "group": "Radios",
+    "url": {
+      "address": "http://4323.live.streamtheworld.com:80/ROCK_AND_POP_SC",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.utfsm",
+    "name": "Radio Universidad Técnica Federico Santa María",
+    "group": "Radios",
+    "url": {
+      "address": "http://mozart.usm.cl:8000",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.radio.valentinletelier",
+    "name": "Radio Valentín Letelier",
+    "group": "Radios",
+    "url": {
+      "address": "http://radio.cl.mediastre.am/valentinletelier.aac",
       "low": false
     },
     "scraper": false

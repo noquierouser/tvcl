@@ -1,9 +1,8 @@
 <?php
 include '../includes/simple_html_dom.php';
-
 date_default_timezone_set("America/Santiago");
 
-echo "Initalizing scrape";
+echo "[" . date("d-m-y H:i:s") . "] ", "VTR scraper start!", PHP_EOL;
 
 // scraper vars
 $config = json_decode(file_get_contents("vtr-cl.nac.ALL.json"));
@@ -96,8 +95,6 @@ foreach ($dict_fechas as $dia) {
 
       // save into a per-channel array
       $programming[$programme_channel_id][] = $detalles_compilado;
-
-      echo ".";
     }
   }
 }
@@ -107,4 +104,4 @@ foreach ($programming as $chan => $items) {
   file_put_contents("../data/vtr-" . $chan . ".json", json_encode($items));
 }
 
-echo PHP_EOL, "Scraper done!", PHP_EOL;
+echo "[" . date("d-m-y H:i:s") . "] ", "VTR scraper done!", PHP_EOL;

@@ -34,8 +34,8 @@
     "name": "CNN Chile",
     "group": "Otros",
     "url": {
-      "address": "http://200.104.250.183:1935/vtr_cnn_online/cnn-web/playlist.m3u8",
-      "low": false
+      "address": "rtsp://200.104.250.183/vtr_cnn_online/cnn-web/",
+      "low": "http://200.104.250.183:1935/vtr_cnn_online/cnn-web/playlist.m3u8"
     },
     "scraper": false
   },
@@ -48,6 +48,36 @@
       "low": false
     },
     "scraper": "vtr"
+  },
+  {
+    "id": "cl.ext.contivisionint",
+    "name": "Contivisión Señal Internacional",
+    "group": "Otros",
+    "url": {
+      "address": "http://v1.streaminglatinoamerica.com:1935/contivision/contivision/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.ext.contivisionmus",
+    "name": "Contivisión Música",
+    "group": "Otros",
+    "url": {
+      "address": "http://evo.eltelon.com:443/live/contivision-musica/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.ext.estudiotv",
+    "name": "Estudio TV",
+    "group": "Otros",
+    "url": {
+      "address": "http://ebola.eltelon.com/hls/estudio-tv/estudio-tv1/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
   },
   {
     "id": "cl.ext.etctv",
@@ -65,6 +95,16 @@
     "group": "Otros",
     "url": {
       "address": "http://13rec.live.ztreaming.com/13rec/13rec/sat.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.ext.teletrak",
+    "name": "Teletrak TV",
+    "group": "Otros",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/sporting/sportingvivo/livestream1/chunklist.m3u8",
       "low": false
     },
     "scraper": false

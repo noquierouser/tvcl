@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 // includes + requires
 include 'includes/helper_functions.php';
@@ -67,8 +68,8 @@ foreach ($canales as $canal) {
       $programme->addAttribute("channel", $canal->id);
       $programme->addAttribute("start", date("YmdHis O", strtotime($dia . " 00:00")));
       $programme->addAttribute("stop", date("YmdHis O", strtotime($dia . " 00:00 + 1 day")));
-      $programme->addChild("title", "Programación " . $canal->name);
-      $programme->addChild("desc", "Programación " . $canal->name . " - " . date("d-m-Y", strtotime($dia)));
+      $programme->addChild("title", "Programación " . xml_entity_transform($canal->name));
+      $programme->addChild("desc", "Programación " . xml_entity_transform($canal->name) . " - " . date("d-m-Y", strtotime($dia)));
     }
   }
 }

@@ -1,3 +1,4 @@
+#!/usr/bin/env php
 <?php
 // config
 $config = json_decode(file_get_contents("config.json"));

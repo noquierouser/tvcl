@@ -25,7 +25,7 @@
     "group": "Nacionales",
     "url": {
       "address": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:7cb6048ff45cb5cdf7f5fed828597fd1/chunklist_b1500000.m3u8",
-      "low": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:7cb6048ff45cb5cdf7f5fed828597fd1/chunklist_b950000.m3u8"
+      "low": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:7cb6048ff45cb5cdf7f5fed828597fd1/chunklist_b500000.m3u8"
     },
     "scraper": "vtr"
   },
@@ -45,7 +45,7 @@
     "group": "Nacionales",
     "url": {
       "address": "http://live.hls.http.chv.ztreaming.com/chvhddesktop/chvHi.m3u8",
-      "low": "http://live.hls.http.chv.ztreaming.com/chvhddesktop/chvMi.m3u8"
+      "low": "http://live.hls.http.chv.ztreaming.com/chvhddesktop/chvLow.m3u8"
     },
     "scraper": "vtr"
   },
@@ -55,7 +55,7 @@
     "group": "Nacionales",
     "url": {
       "address": "http://live.hls.http.13.ztreaming.com/13hddesktop/13hd-900.m3u8",
-      "low": "http://live.hls.http.13.ztreaming.com/13hddesktop/13hd-632.m3u8"
+      "low": "http://live.hls.http.13.ztreaming.com/13hddesktop/13hd-400.m3u8"
     },
     "scraper": "vtr"
   }
