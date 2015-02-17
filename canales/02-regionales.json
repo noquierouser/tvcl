@@ -24,7 +24,7 @@
     "name": "Vive! Chile Antofagasta",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/vive-chile-antofagasta/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/vive-chile-antofagasta/vive-chile-antofagasta.m3u8",
       "low": false
     },
     "scraper": false
@@ -34,7 +34,7 @@
     "name": "Digital Channel TV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/dch-tv/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/dch-tv/dch-tv.m3u8",
       "low": false
     },
     "scraper": false
@@ -45,6 +45,16 @@
     "group": "Regionales",
     "url": {
       "address": "http://movilstream.digitalproserver.com/holvoet/holvoetvivo/holvoet.smil/chunklist-b1248000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/holvoet/holvoetvivo/holvoet.smil/chunklist-b348000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.huascotv",
+    "name": "Huasco Televisión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://xhuascotelevisiononlinex.api.channel.livestream.com/3.0/playlist.m3u8",
       "low": false
     },
     "scraper": false
@@ -55,6 +65,26 @@
     "group": "Regionales",
     "url": {
       "address": "http://cdn.streamingmedia.cl:1935/live/rtmp.stream/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.quilpuetv",
+    "name": "Quilpué TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://servers10.com:1935/8108/8108/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.quintavision",
+    "name": "Quintavisión - Vive! Chile",
+    "group": "Regionales",
+    "url": {
+      "address": "http://iphone-streaming.ustream.tv/uhls/2950729/streams/live/iphone/playlist.m3u8",
       "low": false
     },
     "scraper": false
@@ -74,21 +104,12 @@
     "name": "Independencia TV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/independencia-tv/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/independencia-tv/independencia-tv.m3u8",
       "low": false
     },
     "scraper": false
   },
-  {
-    "id": "cl.reg.cesfamtv",
-    "name": "CesfamTV",
-    "group": "Regionales",
-    "url": {
-      "address": "http://evo.eltelon.com:443/live/cesfamtv/playlist.m3u8",
-      "low": false
-    },
-    "scraper": false
-  },
+  
   {
     "id": "cl.reg.sextavision",
     "name": "Sextavisión - Vive! Chile",
@@ -120,11 +141,21 @@
     "scraper": false
   },
   {
+    "id": "cl.reg.contitv",
+    "name": "ContiTV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://v2.tustreaming.cl/origintser3/tser3.sdp/playlist.m3u8",
+      "low": "http://v1.tustreaming.cl:1935/canal21/canal21/playlist.m3u8"
+    },
+    "scraper": false
+  },
+  {
     "id": "cl.reg.contivision",
     "name": "Contivisión",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/contivision/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/contivision/contivision.m3u8",
       "low": false
     },
     "scraper": false
@@ -164,8 +195,8 @@
     "name": "TV8 - Vive! Chile",
     "group": "Regionales",
     "url": {
-      "address": "http://movilstream.digitalproserver.com/tv8/tv8vivo/livestream1/playlist.m3u8",
-      "low": "http://movilstream.digitalproserver.com/tv8/tv8vivo/livestream2/playlist.m3u8"
+      "address": "http://movilstream.digitalproserver.com/tv8/tv8vivo/tv8.smil/chunklist-b548000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/tv8/tv8vivo/tv8.smil/chunklist-b348000.m3u8"
     },
     "scraper": false
   },
@@ -174,17 +205,28 @@
     "name": "TV 4 Televisión Lota",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/tv4-television/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/tv4-television/tv4-television.m3u8",
       "low": false
     },
     "scraper": false
   },
+  
   {
     "id": "cl.reg.pucontv",
     "name": "PucónTV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/pucon-tv/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/pucon-tv/pucon-tv.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.canal33temuco",
+    "name": "Canal 33 Temuco",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/canal-33/canal-33.m3u8",
       "low": false
     },
     "scraper": false
@@ -194,8 +236,28 @@
     "name": "TecTV Temuco",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/tec-tv/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/tec-tv/tec-tv.m3u8",
       "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.uautonomatemuco",
+    "name": "Universidad Autónoma Televisión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/uautonoma/uautonomavivo/uautonoma.smil/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.ufrovision",
+    "name": "UFRO Visión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b1564000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b364000.m3u8"
     },
     "scraper": false
   },
@@ -235,7 +297,7 @@
     "group": "Regionales",
     "url": {
       "address": "http://movilstream.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/chunklist-b848000.m3u8",
-      "low": false
+      "low": "http://movilstream.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/chunklist-b348000.m3u8"
     },
     "scraper": false
   },
@@ -254,7 +316,7 @@
     "name": "Rocco TV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/rocco-tv/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/rocco-tv/rocco-tv.m3u8",
       "low": false
     },
     "scraper": false
@@ -264,7 +326,7 @@
     "name": "Soberanía TV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/soberania/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/soberania/soberania.m3u8",
       "low": false
     },
     "scraper": false

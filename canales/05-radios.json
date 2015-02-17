@@ -178,5 +178,15 @@
       "low": false
     },
     "scraper": false
+  },
+  {
+    "id": "cl.radio.somospichilemu",
+    "name": "Radio Somos Pichilemu",
+    "group": "Radios",
+    "url": {
+      "address": "http://audio.streaminghd.cl:8000/stream",
+      "low": false
+    },
+    "scraper": false
   }
 ]

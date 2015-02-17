@@ -15,19 +15,23 @@ $playlist = "#EXTM3U" . PHP_EOL;
 
 // channels loop
 foreach ($canales as $canal) {
-  // info line
-  $playlist .= "#EXTINF:-1 ";
-  $playlist .= ($canal->group == "Radios") ? "radio=\"true\" " : null;
-  $playlist .= "tvg-logo=\"" . str_replace(".", "-", $canal->id) . ".png" . "\" ";
-  $playlist .= "tvg-id=\"" . $canal->id . "\" ";
-  $playlist .= "group-title=\"" . $canal->group . "\"";
-  $playlist .= "," . $canal->name;
-  $playlist .= PHP_EOL;
+  // channel type
+  $channel_type = explode(".", $canal->id);
+  $channel_type = $channel_type[1];
 
   // url low and type
   $url_canal = ($canal->url->low) ? $canal->url->low : $canal->url->address;
   $url_type = explode(":", $url_canal);
   $url_type = $url_type[0];
+
+  // info line
+  $playlist .= "#EXTINF:-1 ";
+  $playlist .= ($channel_type == "radio") ? "radio=\"true\" " : null;
+  $playlist .= "tvg-logo=\"" . str_replace(".", "-", $canal->id) . ".png" . "\" ";
+  $playlist .= "tvg-id=\"" . $canal->id . "\" ";
+  $playlist .= "group-title=\"" . $canal->group . "\"";
+  $playlist .= "," . $canal->name;
+  $playlist .= PHP_EOL;
 
   // url line
   switch ($url_type) {

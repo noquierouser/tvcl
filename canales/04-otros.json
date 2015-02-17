@@ -10,12 +10,22 @@
     "scraper": false
   },
   {
+    "id": "cl.ext.agrotv",
+    "name": "AgroTV",
+    "group": "Otros",
+    "url": {
+      "address": "http://v2.tustreaming.cl/origintser3/tser3/playlist.m3u8",
+      "low": "http://v2movil.tustreaming.cl/tser3/tser3/playlist.m3u8"
+    },
+    "scraper": false
+  },
+  {
     "id": "cl.ext.bbcltv",
     "name": "biobiochile.tv",
     "group": "Otros",
     "url": {
       "address": "http://movilstream.digitalproserver.com/bbtvscl/bbtvsclvivo/bbtvscl.smil/chunklist-b1032000.m3u8",
-      "low": false
+      "low": "http://movilstream.digitalproserver.com/bbtvscl/bbtvsclvivo/bbtvscl.smil/chunklist-b232000.m3u8"
     },
     "scraper": false
   },
@@ -24,8 +34,8 @@
     "name": "Canal del Deporte Olímpico",
     "group": "Otros",
     "url": {
-      "address": "http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/playlist.m3u8",
-      "low": false
+      "address": "http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/chunklist_w1863252088_b1064000.m3u8",
+      "low": "http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/chunklist_w1863252088_b640000.m3u8"
     },
     "scraper": false
   },
@@ -35,7 +45,7 @@
     "group": "Otros",
     "url": {
       "address": "rtsp://200.104.250.183/vtr_cnn_online/cnn-web/",
-      "low": "http://200.104.250.183:1935/vtr_cnn_online/cnn-web/playlist.m3u8"
+      "low": false
     },
     "scraper": false
   },
@@ -64,7 +74,7 @@
     "name": "Contivisión Música",
     "group": "Otros",
     "url": {
-      "address": "http://evo.eltelon.com:443/live/contivision-musica/playlist.m3u8",
+      "address": "http://evo.eltelon.com/live/contivision-musica/contivision-musica.m3u8",
       "low": false
     },
     "scraper": false
@@ -85,7 +95,7 @@
     "group": "Otros",
     "url": {
       "address": "http://movilstream.digitalproserver.com/etctv/etctvvivo/etctv.smil/chunklist-b948000.m3u8",
-      "low": false
+      "low": "http://movilstream.digitalproserver.com/etctv/etctvvivo/etctv.smil/chunklist-b648000.m3u8"
     },
     "scraper": false
   },
@@ -104,8 +114,8 @@
     "name": "Teletrak TV",
     "group": "Otros",
     "url": {
-      "address": "http://movilstream.digitalproserver.com/sporting/sportingvivo/livestream1/chunklist.m3u8",
-      "low": false
+      "address": "http://movilstream.digitalproserver.com/sporting/sportingvivo/sporting.smil/chunklist-b1548000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/sporting/sportingvivo/sporting.smil/chunklist-b348000.m3u8"
     },
     "scraper": false
   },
@@ -125,7 +135,7 @@
     "group": "Otros",
     "url": {
       "address": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b800000.m3u8",
-      "low": false
+      "low": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b350000.m3u8"
     },
     "scraper": false
   },
