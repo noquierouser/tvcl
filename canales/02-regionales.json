@@ -9,6 +9,7 @@
     },
     "scraper": false
   },
+
   {
     "id": "cl.reg.antofagastatv",
     "name": "Antofagasta TV",
@@ -49,6 +50,7 @@
     },
     "scraper": false
   },
+
   {
     "id": "cl.reg.huascotv",
     "name": "Huasco Televisión",
@@ -59,6 +61,7 @@
     },
     "scraper": false
   },
+
   {
     "id": "cl.reg.vtv2",
     "name": "VTV2 Valle TV",
@@ -69,6 +72,7 @@
     },
     "scraper": false
   },
+
   {
     "id": "cl.reg.quilpuetv",
     "name": "Quilpué TV",
@@ -100,6 +104,17 @@
     "scraper": false
   },
   {
+    "id": "cl.reg.girovisual",
+    "name": "Girovisual",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/girovisual/girovisualvivo/livestream1/playlist.m3u8",
+      "low": "http://movilstream.digitalproserver.com/girovisual/girovisualvivo/livestream2/playlist.m3u8"
+    },
+    "scraper": false
+  },
+
+  {
     "id": "cl.reg.indeptv",
     "name": "Independencia TV",
     "group": "Regionales",
@@ -116,6 +131,16 @@
     "group": "Regionales",
     "url": {
       "address": "http://scl.streaminghd.cl/sextavision/myStream_720/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.noticiascolchagua",
+    "name": "Canal de Noticias Colchagua",
+    "group": "Regionales",
+    "url": {
+      "address": "http://scl.streaminghd.cl/cnc/myStream_480/playlist.m3u8",
       "low": false
     },
     "scraper": false
@@ -140,6 +165,7 @@
     },
     "scraper": false
   },
+
   {
     "id": "cl.reg.contitv",
     "name": "ContiTV",
@@ -170,6 +196,17 @@
     },
     "scraper": false
   },
+  {
+    "id": "cl.reg.tv5linares",
+    "name": "TV5 Linares",
+    "group": "Regionales",
+    "url": {
+      "address": "http://v1.streaminglatinoamerica.com:1935/canal5/canal5/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+
   {
     "id": "cl.reg.canal9biobio",
     "name": "Canal 9 Bio Bío Televisión",
@@ -271,6 +308,7 @@
     },
     "scraper": false
   },
+  
   {
     "id": "cl.reg.canal5lrc",
     "name": "Canal 5 LRC",
