@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cl.reg.canal9biobio",
+    "name": "Canal 9 Bio Bío Televisión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/c9//c9.smil/chunklist-b1500000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/c9//c9.smil/chunklist-b300000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tvu",
+    "name": "TVU",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/tvu/tvuvivo/tvu.smil/chunklist-b1500000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/tvu/tvuvivo/tvu.smil/chunklist-b300000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tv4lota",
+    "name": "TV 4 Televisión Lota",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/tv4-television/tv4-television.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tv8",
+    "name": "TV8 - Vive! Chile",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/tv8/tv8vivo/tv8.smil/chunklist-b548000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/tv8/tv8vivo/tv8.smil/chunklist-b348000.m3u8"
+    },
+    "scraper": false
+  }
+]

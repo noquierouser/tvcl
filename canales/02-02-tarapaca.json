@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cl.reg.rtciquique",
+    "name": "RTC Iquique",
+    "group": "Regionales",
+    "url": {
+      "address": "http://iphone-streaming.ustream.tv/uhls/18668523/streams/live/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  }
+]

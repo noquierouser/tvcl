@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cl.reg.indeptv",
+    "name": "Independencia TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/independencia-tv/independencia-tv.m3u8",
+      "low": false
+    },
+    "scraper": false
+  }
+]

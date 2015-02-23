@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cl.reg.campustv",
+    "name": "Campus TV - Universidad de Talca",
+    "group": "Regionales",
+    "url": {
+      "address": "http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w2049429420_b1548000.m3u8",
+      "low": "http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w2049429420_b848000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.contitv",
+    "name": "ContiTV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://v2.tustreaming.cl/origintser3/tser3.sdp/playlist.m3u8",
+      "low": "http://v1.tustreaming.cl:1935/canal21/canal21/playlist.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.contivision",
+    "name": "Contivisión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/contivision/contivision.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tv5linares",
+    "name": "TV5 Linares",
+    "group": "Regionales",
+    "url": {
+      "address": "http://v1.streaminglatinoamerica.com:1935/canal5/canal5/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  }
+]

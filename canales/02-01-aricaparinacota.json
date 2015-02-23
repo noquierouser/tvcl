@@ -1,0 +1,12 @@
+[
+  {
+    "id": "cl.reg.aricatv",
+    "name": "Arica TV - Vive! Chile",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/aricatv/aricatvvivo/aricatv.smil/chunklist-b848000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/aricatv/aricatvvivo/aricatv.smil/chunklist-b448000.m3u8"
+    },
+    "scraper": false
+  }
+]

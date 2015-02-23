@@ -1,0 +1,32 @@
+[
+  {
+    "id": "cl.reg.antofagastatv",
+    "name": "Antofagasta TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/atv/atvvivo/atv.smil/chunklist-b2200000.m3u8",
+      "low": "rtmp://190.107.176.167/riteper/antofagasta-tv"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.viveantofa",
+    "name": "Vive! Chile Antofagasta",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/vive-chile-antofagasta/vive-chile-antofagasta.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.dchtv",
+    "name": "Digital Channel TV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/dch-tv/dch-tv.m3u8",
+      "low": false
+    },
+    "scraper": false
+  }
+]

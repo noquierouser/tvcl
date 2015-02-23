@@ -100,6 +100,16 @@
     "scraper": false
   },
   {
+    "id": "cl.ext.puranoticia",
+    "name": "Pura TV",
+    "group": "Otros",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/puranoti/puranotivivo/puranoti.smil/chunklist-b1564000.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
     "id": "cl.ext.rectv",
     "name": "REC TV",
     "group": "Otros",

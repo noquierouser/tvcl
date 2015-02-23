@@ -1,0 +1,52 @@
+[
+  {
+    "id": "cl.reg.canal33temuco",
+    "name": "Canal 33 Temuco",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/canal-33/canal-33.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.pucontv",
+    "name": "PucónTV",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/pucon-tv/pucon-tv.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.uautonomatemuco",
+    "name": "Universidad Autónoma Televisión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://wow2.cl.digitalproserver.com/uautonoma/uautonomavivo/uautonoma.smil/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.ufrovision",
+    "name": "UFRO Visión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b1564000.m3u8",
+      "low": "http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b364000.m3u8"
+    },
+    "scraper": false
+  },
+  {
+    "id": "cl.reg.tectv",
+    "name": "TecTV Temuco",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com/live/tec-tv/tec-tv.m3u8",
+      "low": false
+    },
+    "scraper": false
+  }
+]
