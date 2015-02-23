@@ -1,2 +1,6 @@
 # Archivos con fuentes de direcciones no relevantes para XBMC
 sources/
+sftp-config.json
+*.m3u
+*.sublime-workspace
+*.sublime-project
