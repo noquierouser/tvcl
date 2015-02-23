@@ -1,5 +1,6 @@
 #!/usr/bin/env php
 <?php
+date_default_timezone_set("America/Santiago");
 // config
 $config = json_decode(file_get_contents("config.json"));
 $canales = array();
