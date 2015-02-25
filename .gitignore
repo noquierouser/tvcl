@@ -21,3 +21,4 @@ prog.xml
 
 # sftp configuration file
 sftp-config.json
+remotegen.bat
