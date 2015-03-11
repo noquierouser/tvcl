@@ -4,7 +4,7 @@
     "name": "Canal 33 Temuco",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/canal-33/canal-33.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/canal-33/canal-33.m3u8",
       "low": false
     },
     "scraper": false
@@ -14,7 +14,7 @@
     "name": "PucónTV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/pucon-tv/pucon-tv.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/pucon-tv/pucon-tv.m3u8",
       "low": false
     },
     "scraper": false
@@ -44,7 +44,7 @@
     "name": "TecTV Temuco",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/tec-tv/tec-tv.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/tec-tv/tec-tv.m3u8",
       "low": false
     },
     "scraper": false

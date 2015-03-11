@@ -24,7 +24,7 @@
     "name": "Soberanía TV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/soberania/soberania.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/soberania/soberania.m3u8",
       "low": false
     },
     "scraper": false

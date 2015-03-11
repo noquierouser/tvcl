@@ -14,8 +14,8 @@
     "name": "AgroTV",
     "group": "Otros",
     "url": {
-      "address": "http://v2.tustreaming.cl/origintser3/tser3/playlist.m3u8",
-      "low": "http://v2movil.tustreaming.cl/tser3/tser3/playlist.m3u8"
+      "address": "http://v2.tustreaming.cl/tustreaming/live3/playlist.m3u8",
+      "low": "http://v2movil.tustreaming.cl/tustreaming/live3/playlist.m3u8"
     },
     "scraper": false
   },
@@ -74,7 +74,7 @@
     "name": "Contivisión Música",
     "group": "Otros",
     "url": {
-      "address": "http://evo.eltelon.com/live/contivision-musica/contivision-musica.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/contivision-musica/contivision-musica.m3u8",
       "low": false
     },
     "scraper": false
@@ -144,8 +144,8 @@
     "name": "TV Chile",
     "group": "Otros",
     "url": {
-      "address": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b800000.m3u8",
-      "low": "http://edge-11-mvstr.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b350000.m3u8"
+      "address": "http://edge-51-cl.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b800000.m3u8",
+      "low": "http://edge-51-cl.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b350000.m3u8"
     },
     "scraper": false
   },

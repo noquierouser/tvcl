@@ -14,8 +14,8 @@
     "name": "ContiTV",
     "group": "Regionales",
     "url": {
-      "address": "http://v2.tustreaming.cl/origintser3/tser3.sdp/playlist.m3u8",
-      "low": "http://v1.tustreaming.cl:1935/canal21/canal21/playlist.m3u8"
+      "address": "http://v2movil.tustreaming.cl/tustreaming/live2/playlist.m3u8",
+      "low": "http://v2movil.tustreaming.cl/tustreaming/live/playlist.m3u8"
     },
     "scraper": false
   },
@@ -24,7 +24,7 @@
     "name": "Contivisión",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/contivision/contivision.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/contivision/contivision.m3u8",
       "low": false
     },
     "scraper": false

@@ -14,7 +14,7 @@
     "name": "Vida TV - Cesfam Las Cabras",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/cesfamtv/cesfamtv.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/cesfamtv/cesfamtv.m3u8",
       "low": false
     },
     "scraper": false
@@ -35,16 +35,6 @@
     "group": "Regionales",
     "url": {
       "address": "http://movilstream.digitalproserver.com/tcsc/tcscvivo/livestream2/chunklist.m3u8",
-      "low": false
-    },
-    "scraper": false
-  },
-  {
-    "id": "cl.reg.tvosanvicente",
-    "name": "TVO San Vicente",
-    "group": "Regionales",
-    "url": {
-      "address": "http://movilstream.digitalproserver.com/tvo/tvovivo/livestream/playlist.m3u8",
       "low": false
     },
     "scraper": false

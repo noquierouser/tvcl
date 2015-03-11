@@ -14,7 +14,7 @@
     "name": "Rocco TV",
     "group": "Regionales",
     "url": {
-      "address": "http://evo.eltelon.com/live/rocco-tv/rocco-tv.m3u8",
+      "address": "http://evo.eltelon.com:1935/live/rocco-tv/rocco-tv.m3u8",
       "low": false
     },
     "scraper": false
