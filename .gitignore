@@ -1,24 +1,19 @@
 ## proyecto
-# directorio y archivos generados por los scripts
+# generados por script
 data/
-sources/
-list.m3u
-listlow.m3u
 prog.xml
+*.m3u
+*.tkl
+
+# desarrollo
+sources/
+localgen
+remotegen
+*.bat
 
 ## sublime text
-# cache files for sublime text
 *.tmlanguage.cache
 *.tmPreferences.cache
 *.stTheme.cache
-
-# workspace files are user-specific
 *.sublime-workspace
-
-# project files should be checked into the repository, unless a significant
-# proportion of contributors will probably not be using SublimeText
-# *.sublime-project
-
-# sftp configuration file
 sftp-config.json
-remotegen.bat

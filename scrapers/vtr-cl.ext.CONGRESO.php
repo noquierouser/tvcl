@@ -2,10 +2,10 @@
 include '../includes/simple_html_dom.php';
 date_default_timezone_set("America/Santiago");
 
-echo "[" . date("d-m-y H:i:s") . "] ", "VTR NACIONAL scraper start!", PHP_EOL;
+echo "[" . date("d-m-y H:i:s") . "] ", "VTR CONGRESO scraper start!", PHP_EOL;
 
 // scraper vars
-$config = json_decode(file_get_contents("vtr-cl.nac.ALL.json"));
+$config = json_decode(file_get_contents("vtr-cl.ext.CONGRESO.json"));
 $dict_fechas = array(
   strtotime("today"),
   strtotime("tomorrow"),
@@ -13,12 +13,8 @@ $dict_fechas = array(
 );
 
 $dict_canales = array(
-  "518976387" => "cl.nac.lared",
-  "518992871" => "cl.nac.ucv",
-  "518970317" => "cl.nac.tvn",
-  "518970302" => "cl.nac.chv",
-  "518970308" => "cl.nac.mega",
-  "518774546" => "cl.nac.13uc"
+  "518993220" => "cl.ext.tvsenado",
+  "518993221" => "cl.ext.cdtv"
 );
 
 $grilla_url = "http://televisionvtr.cl/index.php?obt=grillacat&canal_tipo=nacional&fecha=%FECHA%&comuna=Santiago&canal_cantidad=20&_=" . time();
@@ -96,12 +92,9 @@ foreach ($dict_fechas as $dia) {
   }
 }
 
-// limit case: cl.nac.13uc
-$programming["cl.nac.13uc"] = array_slice($programming["cl.nac.13uc"], 0, count($programming["cl.nac.13uc"]) / 2);
-
 // save programming array to per-channel json files
 foreach ($programming as $chan => $items) {
   file_put_contents("../data/vtr-" . $chan . ".json", json_encode($items));
 }
 
-echo "[" . date("d-m-y H:i:s") . "] ", "VTR NACIONAL scraper done!", PHP_EOL;
+echo "[" . date("d-m-y H:i:s") . "] ", "VTR CONGRESO scraper done!", PHP_EOL;
