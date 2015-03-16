@@ -4,7 +4,7 @@
     "name": "Canal 3 Pichilemu",
     "group": "Comunitarios",
     "url": {
-      "address": "http://vivo.pichilemutv.org/playlist.php",
+      "address": "http://vivo.pichilemutv.org/stream",
       "low": false
     },
     "scraper": false
