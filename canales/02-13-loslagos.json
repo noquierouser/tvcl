@@ -7,7 +7,8 @@
       "address": "http://iphone-streaming.ustream.tv/uhls/16911585/streams/live/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.inetosorno",
@@ -17,7 +18,8 @@
       "address": "http://movilstream.digitalproserver.com/inetosorno/inetosornovivo/inetosorno.smil/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.verticetv",
@@ -27,6 +29,7 @@
       "address": "http://movilstream.digitalproserver.com/verticetv/verticetvvivo/verticetv.smil/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

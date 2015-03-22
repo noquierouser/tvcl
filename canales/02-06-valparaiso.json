@@ -7,7 +7,8 @@
       "address": "http://cdn.streamingmedia.cl:1935/live/rtmp.stream/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.quilpuetv",
@@ -17,7 +18,8 @@
       "address": "http://mediacp.streamingchilenos.cl:1935/quilpuettv/quilpuettv/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.quintavision",
@@ -27,7 +29,8 @@
       "address": "http://iphone-streaming.ustream.tv/uhls/2950729/streams/live/iphone/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.c2sanantonio",
@@ -37,7 +40,8 @@
       "address": "http://video.crearchile.com:8080/live/canal2.mp4/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.girovisual",
@@ -47,6 +51,7 @@
       "address": "http://movilstream.digitalproserver.com/girovisual/girovisualvivo/livestream1/playlist.m3u8",
       "low": "http://movilstream.digitalproserver.com/girovisual/girovisualvivo/livestream2/playlist.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

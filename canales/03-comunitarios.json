@@ -7,6 +7,7 @@
       "address": "http://vivo.pichilemutv.org/stream",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

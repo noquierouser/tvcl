@@ -7,7 +7,8 @@
       "address": "http://movilstream.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/chunklist-b848000.m3u8",
       "low": "http://movilstream.digitalproserver.com/aysentv/aysentvvivo/aysentv.smil/chunklist-b348000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.roccotv",
@@ -17,6 +18,7 @@
       "address": "http://evo.eltelon.com:1935/live/rocco-tv/rocco-tv.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

@@ -7,7 +7,8 @@
       "address": "http://streaming.elpinguino.com:1935/live/pinguinotv/playlist.m3u8",
       "low": "http://streaming.elpinguino.com:1935/live/pinguinotv_360p/playlist.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.itv",
@@ -17,7 +18,8 @@
       "address": "http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/chunklist-b1500000.m3u8",
       "low": "http://movilstream.digitalproserver.com/itv/itvvivo/itv.smil/chunklist-b300000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.soberaniatv",
@@ -27,7 +29,8 @@
       "address": "http://evo.eltelon.com:1935/live/soberania/soberania.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.umagtv",
@@ -37,7 +40,8 @@
       "address": "http://movil.ztreaming.com/tser5/tser5.sdp/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.umagauditorio",
@@ -47,6 +51,7 @@
       "address": "http://131.161.59.71/itser4/tser4.sdp/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

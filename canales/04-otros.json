@@ -7,17 +7,19 @@
       "address": "http://cluster.13cmovil.ztreaming.com/13cm/grpz13c/playlist.m3u8",
       "low": false
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   },
   {
     "id": "cl.ext.agrotv",
     "name": "AgroTV",
     "group": "Otros",
     "url": {
-      "address": "http://v2.tustreaming.cl/tustreaming/live3/playlist.m3u8",
-      "low": "http://v2movil.tustreaming.cl/tustreaming/live3/playlist.m3u8"
+      "address": "http://v2.tustreaming.cl/tustreaming/live4/playlist.m3u8",
+      "low": "http://v2movil.tustreaming.cl/tustreaming/live4/playlist.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.bbcltv",
@@ -27,7 +29,19 @@
       "address": "http://movilstream.digitalproserver.com/bbtvscl/bbtvsclvivo/bbtvscl.smil/chunklist-b1032000.m3u8",
       "low": "http://movilstream.digitalproserver.com/bbtvscl/bbtvsclvivo/bbtvscl.smil/chunklist-b232000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
+  },
+  {
+    "id": "cl.ext.canaldelvino",
+    "name": "canaldelvino.tv",
+    "group": "Otros",
+    "url": {
+      "address": "http://evo.eltelon.com:443/live/canaldelvinotv/canaldelvinotv.m3u8",
+      "low": false
+    },
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.cdo",
@@ -37,7 +51,8 @@
       "address": "http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/chunklist_w1863252088_b1064000.m3u8",
       "low": "http://wow2.cl.digitalproserver.com/cdo/cdovivo/cdo.smil/chunklist_w1863252088_b640000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.cnncl",
@@ -47,7 +62,8 @@
       "address": "rtsp://200.104.250.183/vtr_cnn_online/cnn-web/",
       "low": false
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   },
   {
     "id": "cl.ext.cdtv",
@@ -57,7 +73,8 @@
       "address": "http://camara.ztreaming.com:80/camara8/streamcam8.sdp/playlist.m3u8",
       "low": false
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   },
   {
     "id": "cl.ext.contivisionint",
@@ -67,7 +84,8 @@
       "address": "http://v1.streaminglatinoamerica.com:1935/contivision/contivision/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.contivisionmus",
@@ -77,7 +95,8 @@
       "address": "http://wow2.cl.digitalproserver.com/contivisionmusica/contivisionmusicavivo/contivisionmusica.smil/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.estudiotv",
@@ -87,7 +106,8 @@
       "address": "http://ebola.eltelon.com/hls/estudio-tv/estudio-tv1/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.etctv",
@@ -97,7 +117,8 @@
       "address": "http://movilstream.digitalproserver.com/etctv/etctvvivo/etctv.smil/chunklist-b948000.m3u8",
       "low": "http://movilstream.digitalproserver.com/etctv/etctvvivo/etctv.smil/chunklist-b648000.m3u8"
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   },
   {
     "id": "cl.ext.puranoticia",
@@ -107,7 +128,8 @@
       "address": "http://movilstream.digitalproserver.com/puranoti/puranotivivo/puranoti.smil/chunklist-b1564000.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.rectv",
@@ -117,7 +139,8 @@
       "address": "http://13rec.live.ztreaming.com/13rec/13rec/sat.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.teletrak",
@@ -127,7 +150,8 @@
       "address": "http://movilstream.digitalproserver.com/sporting/sportingvivo/sporting.smil/chunklist-b1548000.m3u8",
       "low": "http://movilstream.digitalproserver.com/sporting/sportingvivo/sporting.smil/chunklist-b348000.m3u8"
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   },
   {
     "id": "cl.ext.tvsenado",
@@ -137,7 +161,8 @@
       "address": "http://senadortmp.janus.cl/senadotv/senado600/playlist.m3u8",
       "low": false
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   },
   {
     "id": "cl.ext.tvnint",
@@ -147,7 +172,8 @@
       "address": "http://edge-51-cl.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b800000.m3u8",
       "low": "http://edge-51-cl.edge.mdstrm.com/tvn-live/_definst_/smil:285a5c6dade574d5f111419c85c6cf17/chunklist_b350000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.ext.vivedeportes",
@@ -157,6 +183,7 @@
       "address": "http://200.104.250.182:1935/vtr_vivedeportes_online/vivedeportes-ipad/playlist.m3u8",
       "low": false
     },
-    "scraper": "vtr"
+    "scraper": "vtr",
+    "status": "active"
   }
 ]

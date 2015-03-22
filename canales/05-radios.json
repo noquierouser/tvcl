@@ -7,7 +7,8 @@
       "address": "http://2493.live.streamtheworld.com:80/ADNAAC_SC",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.bbclstgo",
@@ -17,7 +18,8 @@
       "address": "http://tunein.digitalproserver.com/biostgobb.aac",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.bbclconce",
@@ -27,7 +29,8 @@
       "address": "http://tunein.digitalproserver.com/bioconcebb.aac",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.bbclvalpo",
@@ -37,7 +40,8 @@
       "address": "http://tunein.digitalproserver.com/biovalpo",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.concierto",
@@ -47,7 +51,8 @@
       "address": "http://2493.live.streamtheworld.com:80/CONCIERTO_SC",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.cooperativa",
@@ -57,7 +62,8 @@
       "address": "http://209.88.205.240:80",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.festival",
@@ -67,7 +73,8 @@
       "address": "http://www.festival.cl:8000/",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.imagina",
@@ -77,7 +84,8 @@
       "address": "http://4323.live.streamtheworld.com:80/IMAGINA_SC",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.portales",
@@ -87,7 +95,8 @@
       "address": "http://186.103.134.238:9996/",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.pudahuel",
@@ -97,7 +106,8 @@
       "address": "http://7349.live.streamtheworld.com:80/PUDAHUEL_SC",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.uchile",
@@ -107,7 +117,8 @@
       "address": "http://stream.radio.uchile.cl:80/",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.udec",
@@ -117,7 +128,8 @@
       "address": "http://radio.udec.cl:8000/radioudec",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.uno",
@@ -127,7 +139,8 @@
       "address": "http://7349.live.streamtheworld.com:80/RADIO_UNO_SC",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.usach",
@@ -137,7 +150,8 @@
       "address": "http://158.170.20.250:8080/",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.usachclasica",
@@ -147,7 +161,8 @@
       "address": "http://senalclasica.radiousach.cl:8080/",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.rockandpop",
@@ -157,7 +172,8 @@
       "address": "http://4323.live.streamtheworld.com:80/ROCK_AND_POP_SC",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.utfsm",
@@ -167,7 +183,8 @@
       "address": "http://mozart.usm.cl:8000",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.valentinletelier",
@@ -177,7 +194,8 @@
       "address": "http://radio.cl.mediastre.am/valentinletelier.aac",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.radio.somospichilemu",
@@ -187,6 +205,7 @@
       "address": "http://audio.streaminghd.cl:8000/stream",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

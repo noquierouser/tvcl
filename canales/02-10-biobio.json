@@ -7,7 +7,19 @@
       "address": "http://movilstream.digitalproserver.com/c9//c9.smil/chunklist-b1500000.m3u8",
       "low": "http://movilstream.digitalproserver.com/c9//c9.smil/chunklist-b300000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
+  },
+  {
+    "id": "cl.reg.itatavision",
+    "name": "Itata Visión",
+    "group": "Regionales",
+    "url": {
+      "address": "http://evo.eltelon.com:1935/live/itata-vision/itata-vision.m3u8",
+      "low": false
+    },
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.ncctv",
@@ -17,7 +29,8 @@
       "address": "http://evo.eltelon.com:1935/live/ncc-tv/ncc-tv.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.televida",
@@ -27,7 +40,8 @@
       "address": "http://evo.eltelon.com:1935/live/televida/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.tvu",
@@ -37,7 +51,8 @@
       "address": "http://movilstream.digitalproserver.com/tvu/tvuvivo/tvu.smil/chunklist-b1500000.m3u8",
       "low": "http://movilstream.digitalproserver.com/tvu/tvuvivo/tvu.smil/chunklist-b300000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.tv4lota",
@@ -47,7 +62,8 @@
       "address": "http://evo.eltelon.com:1935/live/tv4-television/tv4-television.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.tv8",
@@ -57,6 +73,7 @@
       "address": "http://movilstream.digitalproserver.com/tv8/tv8vivo/tv8.smil/chunklist-b548000.m3u8",
       "low": "http://movilstream.digitalproserver.com/tv8/tv8vivo/tv8.smil/chunklist-b348000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

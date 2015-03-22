@@ -4,10 +4,11 @@
     "name": "Canal de Noticias Colchagua",
     "group": "Regionales",
     "url": {
-      "address": "http://scl.streaminghd.cl/cnc/myStream_480/playlist.m3u8",
+      "address": "http://audio.streaminghd.cl:80/8014/8014/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.cesfamlascabras",
@@ -17,7 +18,8 @@
       "address": "http://evo.eltelon.com:1935/live/cesfamtv/cesfamtv.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.sextavision",
@@ -27,7 +29,8 @@
       "address": "http://scl.streaminghd.cl/sextavision/myStream_720/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.tcsantacruz",
@@ -37,6 +40,18 @@
       "address": "http://movilstream.digitalproserver.com/tcsc/tcscvivo/livestream2/chunklist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
+  },
+  {
+    "id": "cl.reg.tvosanvicente",
+    "name": "TVO San Vicente",
+    "group": "Regionales",
+    "url": {
+      "address": "http://movilstream.digitalproserver.com/tvo/tvovivo/livestream/playlist.m3u8",
+      "low": false
+    },
+    "scraper": false,
+    "status": "active"
   }
 ]

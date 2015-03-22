@@ -7,7 +7,8 @@
       "address": "http://evo.eltelon.com:1935/live/canal-33/canal-33.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.pucontv",
@@ -17,7 +18,8 @@
       "address": "http://evo.eltelon.com:1935/live/pucon-tv/pucon-tv.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.uautonomatemuco",
@@ -27,7 +29,8 @@
       "address": "http://wow2.cl.digitalproserver.com/uautonoma/uautonomavivo/uautonoma.smil/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.ufrovision",
@@ -37,7 +40,8 @@
       "address": "http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b1564000.m3u8",
       "low": "http://movilstream.digitalproserver.com/ufro/ufrovivo/ufro.smil/chunklist-b364000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.tectv",
@@ -47,6 +51,7 @@
       "address": "http://evo.eltelon.com:1935/live/tec-tv/tec-tv.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

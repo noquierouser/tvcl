@@ -7,7 +7,8 @@
       "address": "http://video.crearchile.com:8080/live/serena.mp4/playlist.m3u8",
       "low": "rtmp://video.crearchile.com:8080/live/mp4:serena.mp4"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.ultravision",
@@ -17,6 +18,7 @@
       "address": "http://iphone-streaming.ustream.tv/uhls/13961215/streams/live/iphone/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

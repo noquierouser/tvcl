@@ -7,7 +7,8 @@
       "address": "http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w2049429420_b1548000.m3u8",
       "low": "http://wow2.cl.digitalproserver.com/campustv/campustvvivo/campustv.smil/chunklist_w2049429420_b848000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.contitv",
@@ -17,7 +18,8 @@
       "address": "http://v2movil.tustreaming.cl/tustreaming/live2/playlist.m3u8",
       "low": "http://v2movil.tustreaming.cl/tustreaming/live/playlist.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.contivision",
@@ -27,7 +29,8 @@
       "address": "http://evo.eltelon.com:1935/live/contivision/contivision.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.tv5linares",
@@ -37,6 +40,7 @@
       "address": "http://v1.streaminglatinoamerica.com:1935/canal5/canal5/playlist.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

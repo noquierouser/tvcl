@@ -5,9 +5,10 @@
     "group": "Regionales",
     "url": {
       "address": "http://movilstream.digitalproserver.com/atv/atvvivo/atv.smil/chunklist-b2200000.m3u8",
-      "low": "rtmp://190.107.176.167/riteper/antofagasta-tv"
+      "low": "http://movilstream.digitalproserver.com/atv/atvvivo/atv.smil/chunklist-b796000.m3u8"
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   },
   {
     "id": "cl.reg.viveantofa",
@@ -17,7 +18,8 @@
       "address": "http://evo.eltelon.com:1935/live/vive-chile-antofagasta/vive-chile-antofagasta.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "inactive"
   },
   {
     "id": "cl.reg.dchtv",
@@ -27,6 +29,7 @@
       "address": "http://evo.eltelon.com:1935/live/dch-tv/dch-tv.m3u8",
       "low": false
     },
-    "scraper": false
+    "scraper": false,
+    "status": "active"
   }
 ]

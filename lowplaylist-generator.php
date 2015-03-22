@@ -35,14 +35,18 @@ foreach ($canales as $canal) {
   $playlist .= PHP_EOL;
 
   // url line
-  switch ($url_type) {
-    case 'rtmp':
-      $playlist .= "rtmp://\$OPT:rtmp-raw=" . $url_canal . PHP_EOL;
-      break;
-    
-    default:
-      $playlist .= $url_canal . PHP_EOL;
-      break;
+  if ($canal->status == "active") {
+    switch ($url_type) {
+      case 'rtmp':
+        $playlist .= "rtmp://\$OPT:rtmp-raw=" . $url_canal . PHP_EOL;
+        break;
+      
+      default:
+        $playlist .= $url_canal . PHP_EOL;
+        break;
+    }
+  } else {
+    $playlist .= $config->offlineSignal . PHP_EOL;
   }
 }
 

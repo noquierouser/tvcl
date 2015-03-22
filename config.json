@@ -2,5 +2,6 @@
   "generatorInfoName": "tvclpvr_gen v0.2",
   "generatorInfoURL": "http://noquierouser.com/tvcl",
   "channelsFolder": "canales/",
-  "logosFolder": "http://noquierouser.com/tvcl/logos/"
+  "logosFolder": "http://noquierouser.com/tvcl/logos/",
+  "offlineSignal": "http://noquierouser.com/tvcl/offline/playlist.m3u8"
 }
